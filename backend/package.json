@@ -1,17 +1,16 @@
 {
   "name": "smile-ai-backend",
   "version": "1.0.0",
-  "description": "Backend for SMILE AI – WhatsApp & GPT assistant",
   "main": "src/index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node src/index.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "openai": "^4.28.0",
-    "twilio": "^5.4.0"
+    "openai": "^4.56.0",
+    "pg": "^8.12.0",
+    "twilio": "^5.3.0"
   }
 }
